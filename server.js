@@ -79,7 +79,7 @@ function sanitizeLatex(latex) {
 
 // Construim un document LaTeX complet
 function buildDocument(tikzCode) {
-  return `\\documentclass[border=2mm]{standalone}
+  return `\\documentclass[border=10mm]{standalone}
 \\usepackage{tikz}
 \\usepackage{amsmath}
 \\usepackage{amssymb}
